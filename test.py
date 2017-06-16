@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #coding:utf-8
 
-# from numpy import *
+from numpy import *
 # frTrain = open('./Logistic/horseColicTraining.txt')
 # trainingSet = []
 # trainingLabels = []
@@ -14,4 +14,22 @@
 # 	trainingSet.append(float(currLine[21]))
 # print trainingSet
 
-print [0] * 3
+print zeros(3)
+
+a = [1,2,3,4,'test']
+c = [1,2,3,4,'test']
+print a
+b = [5,5]
+print b
+a.append(b)
+print a
+c.extend(b)
+print c
+
+del(a[0])
+del(a[0])
+print a
+
+a = [1,2,4,6,9]
+for i in a:
+	print i
