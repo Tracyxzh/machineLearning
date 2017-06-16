@@ -120,7 +120,6 @@ def spamTest():
 		randIndex = int(random.uniform(0, len(trainingSet)))
 		testSet.append(trainingSet[randIndex])
 		del(trainingSet[randIndex])
-	print 'trainingSet',trainingSet
 	trainMat = []
 	trainClasses = []
 	for docIndex in trainingSet:
